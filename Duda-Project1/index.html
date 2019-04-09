@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- 
+	Filename: index.html
+    
+    Description: The purpose of this page is to showcase the skills I have learned in
+    INF-146 as well as create a page that gives information about myself.
+    
+    Author: Andrew Duda
+    
+    Date Published: 03-09-19 
+-->
+
+<head>
+	<meta charset="utf-8" />
+    <meta name="keywords" content="Andrew, Duda, Andrew Duda, BCC, Bergen, Bergen Community College, Web Development, Web Developer, Web Dev,student, learning, coding, programming, html, css, coder, INF-146" />	<!-- optional -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AD</title>
+    
+    <!-- Links to stylesheets -->
+    <link href="reset_style.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    
+    <!-- I used this style sheet to link the default styles for the social media icons
+         These icons can be found on fontawesome.com
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+	<!--Header-->
+	<div class="row header">
+		<div class="col-1-1">
+			<h1>Andrew Duda</h1>
+			<p>Future Web Developer</p>
+		</div>
+	</div>
+
+    <!--Main-->
+    
+    <!-- Left Column -->
+	<div class="row main" >
+		<div class="col-1-4" id="left-column" >
+            <!-- This column contains only the image-->
+            <div class="row" >
+                <div class="col-1-1" >
+                    <img src="portrait1.jpeg" alt="The most handsome man in the world...Me" />
+                </div>
+            </div>
+            <!-- Nested column in left column-->
+            <div class="row info-row" >
+                <div class="col-1-1 " >
+                    <div id="left" >
+                        <h3>Name</h3>
+                        <p>Andrew Duda</p>
+
+                        <h3>Email</h3>
+                        <a class="column-links" href="mailto:aduda@me.bergen.edu">aduda@me.bergen.edu</a> <br>
+                    </div>
+            
+                    <!-- The purpose of this div is so that I can float it to the right to balance white space on site when screen size decreases-->
+                    <div id="right" >
+                        <h3>Location</h3>
+                        <p>Hasbrouck Heights, NJ</p>
+                    
+                        <h3>Phone</h3>
+                        <a class="column-links" href="tel:+12015431354" >(201) 543-1354</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills column of column-->
+            <div class="row info-row" >
+                <div class="col-1-1" >
+                    <div id="skills" >
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>PhotoShop</li>
+                            <li>HTML5/CSS3</li>
+                            <li>Microsoft Office</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Social Media Icons and links-->
+            <div class="row info-row" >
+                <div class="col-1-1 social-media" >
+                    <div id="social-media" >
+                        <a id="github-icon" href="https://github.com/STEVEpartyof4" target="_blank" ><i class="fab fa-github-square fa-2x"></i></a>
+                        <a id="linkedin-icon" href="https://www.linkedin.com/in/andrew-duda-7a4153149/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                        <a id="twitter-icon" href="https://twitter.com/STEVEpartyof4" target="_blank"> <i class="fab fa-twitter-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Column of main section. Conatians the about me section. -->
+		<div class="col-3-4" id="about-me">
+            <p>Hello, my name is Andrew Duda. I am student at Bergen Community College studying to become a Web Developer. This is my second semester studying at Bergen Community College but it is not my first time attending college. I am also a graduate of Rutgers University with a Bachelor of Arts degree. I majored in Political Science while at Rutgers but it was not until after I graduated when I discovered my true passion, coding.</p>
+
+            <p>Growing up, I spent most of my time free time playing sports. This did not leave me much time to use and tinker with computers. As I have grown older however, I have become much more interested in the possibilities of technology and the problem solving involved in programming. What excites me the most is web development though. I love the mixture of design and problem solving. This is why I aspire to become a Full Stack Web Developer.</p>
+
+            <p>I am passionate and eager to switch careers from retail to web development. Currently, I have one more year left at Bergen Community College until I graduate. I have already taken a course on Python and am currently taking courses on Web Development, Java, and Multimedia. When I graduate (or even before) I plan on applying to jobs as a Junior Web Developer. Until then I plan on enjoying my time here at Bergen and look forward to continuing to learn.</p>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<div class="row " id="footer" >
+		
+        <div class="col-1-1 contact-info" >
+            <p>Andrew Duda &#x2600; INF-146-001 &#x2600; Spring 2019</p>
+        </div>
+	</div>
+
+</body>
+
+</html>

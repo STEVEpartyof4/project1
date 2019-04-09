@@ -1,0 +1,9 @@
+Hello, my name is Andrew Duda. I am student at Bergen Community College studying to become a Web Developer. This is my second semester studying at Bergen Community College but it is not my first time attending college. I am also a graduate of Rutgers University with a Bachelor of Arts degree. I majored in Political Science while at Rutgers but it was not until after I graduated when I discovered my true passion, coding.
+
+
+Growing up, I spent most of my time free time playing sports. This did not leave me much time to use and tinker with computers. As I have grown older however, I have become much more interested in the possibilities of technology and the problem solving involved in programming. What excites me the most is web development though. I love the mixture of design and problem solving. This is why I aspire to become a Full Stack Web Developer.
+
+
+I am passionate and eager to switch careers from retail to web development. Currently, I have one more year left at Bergen Community College until I graduate. I have already taken a course on Python and am currently taking courses on Web Development, Java, and Multimedia. When I graduate (or even before) I plan on applying to jobs as a Junior Web Developer. Until then I plan on enjoying my time here at Bergen and look forward to continuing to learn.
+
+
